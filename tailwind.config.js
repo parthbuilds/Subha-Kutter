@@ -7,8 +7,8 @@ module.exports = {
       transparent: 'transparent',
       'green': '#D2EF9A',
       'black': '#1F1F1F',
-      'primary':'#FFE0BF',
-      'secondary': '#696C70',
+      'primary':'#984d00',
+      'secondary': '#FFE0BF',
       'secondary2': '#A0A0A0',
       'white': '#ffffff',
       'surface': '#F7F7F7',
@@ -20,7 +20,6 @@ module.exports = {
       'line': '#E9E9E9',
 
       'header-bg': '#FFEOBF',
-      'secondary': '#3DAB25',
       'primary-bg': '#3DAB25',
       'secondary-bg': '#3DAB25',
 

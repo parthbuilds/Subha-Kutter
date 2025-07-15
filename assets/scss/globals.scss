@@ -4,8 +4,8 @@
 :root {
   --green: #D2EF9A;
   --black: #1F1F1F;
-  --primary:#FFE0BF;
-  --secondary: #006eff;
+  --primary: #984d00;
+  --secondary: #FFE0BF;
   --secondary2: #A0A0A0;
   --white: #ffffff;
   --surface: #F7F7F7;
@@ -95,6 +95,14 @@ input[type="file"] {
   padding-right: 16px;
   padding-left: 16px;
   margin: 0 auto;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
 }
 
 .bg-red {
