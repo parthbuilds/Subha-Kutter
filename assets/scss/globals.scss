@@ -6,9 +6,9 @@
   --black: #1F1F1F;
   --primary: #984d00;
   --secondary: #FFE0BF;
-  --secondary2: #A0A0A0;
+  --button: #C76400;
   --white: #ffffff;
-  --surface: #F7F7F7;
+  --surface: #FFBE7F;
   --red: #DB4444;
   --purple: #8684D4;
   --success: #3DAB25;
@@ -123,6 +123,10 @@ input[type="file"] {
 
 .bg-silver {
   background-color: #a1a2af;
+}
+
+.bg-button {
+    background-color: #C76400;
 }
 
 .bg-linear {

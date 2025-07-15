@@ -2139,9 +2139,14 @@ video {
   background-color: rgb(160 160 160 / var(--tw-bg-opacity));
 }
 
+.bg-card {
+  --tw-bg-opacity: 1;
+  background-color: #FFBE7F;
+}
+
 .bg-surface {
   --tw-bg-opacity: 1;
-  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+  background-color: #ffe0bf;
 }
 
 .bg-surface1 {
@@ -2177,7 +2182,7 @@ video {
 
 .object-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .p-1 {

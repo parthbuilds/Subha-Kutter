@@ -117,6 +117,10 @@ input[type="file"] {
     background-color: #a1a2af;
 }
 
+.bg-button {
+    background-color: #C76400;
+}
+
 .bg-linear {
     background: linear-gradient(238deg, #FAF8F1 0%, #F6F3EF 99.66%);
 }

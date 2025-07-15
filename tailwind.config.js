@@ -9,9 +9,10 @@ module.exports = {
       'black': '#1F1F1F',
       'primary':'#984d00',
       'secondary': '#FFE0BF',
-      'secondary2': '#A0A0A0',
+      'button': '#C76400',
+      'card': '#FFBE7F',
       'white': '#ffffff',
-      'surface': '#F7F7F7',
+      'surface': '#FFE0BF',
       'red': '#DB4444',
       'purple': '#8684D4',
       'success': '#3DAB25',
@@ -21,7 +22,7 @@ module.exports = {
 
       'header-bg': '#FFEOBF',
       'primary-bg': '#3DAB25',
-      'secondary-bg': '#3DAB25',
+      'secondary-bg': '#FFBE7F',
 
 
       'outline': 'rgba(0, 0, 0, 0.15)',

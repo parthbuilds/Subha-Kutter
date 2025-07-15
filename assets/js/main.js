@@ -390,7 +390,7 @@ const handleItemModalWishlist = () => {
         "border-line"
       );
       prdItem.innerHTML = `
-                <div class="infor flex items-center gap-5">
+                <div class="infor flex items-center gap-5 ">
                     <div class="bg-img">
                         <img src=${item.thumbImage[0]} alt='product'
                             class='w-[100px] aspect-square flex-shrink-0 rounded-lg' />
@@ -1522,7 +1522,7 @@ const createProductItem = (product) => {
 
   let productTags = "";
   if (product.new) {
-    productTags += `<div class="product-tag text-button-uppercase bg-green px-3 py-0.5 inline-block rounded-full absolute top-3 left-3 z-[1]">New</div>`;
+    productTags += `<div class="product-tag text-button-uppercase bg-secondary px-3 py-0.5 inline-block rounded-full absolute top-3 left-3 z-[1]">New</div>`;
   }
   if (product.sale) {
     productTags += `<div class="product-tag text-button-uppercase text-white bg-red px-3 py-0.5 inline-block rounded-full absolute top-3 left-3 z-[1]">Sale</div>`;
@@ -1530,7 +1530,7 @@ const createProductItem = (product) => {
 
   let productImages = "";
   product.thumbImage.forEach((img, index) => {
-    productImages += `<img key="${index}" class="w-full h-full object-cover duration-700" src="${img}" alt="img">`;
+    productImages += `<img key="${index}" class="w-full h-full object-cover duration-700 bg-card" src="${img}" alt="img">`;
   });
 
   productItem.innerHTML = `
