@@ -2095,6 +2095,10 @@ video {
   background-color: rgb(246 239 221 / var(--tw-bg-opacity));
 }
 
+.info{
+  color:var(--secondary)
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(31 31 31 / var(--tw-bg-opacity));
@@ -2102,7 +2106,7 @@ video {
 
 .bg-green {
   --tw-bg-opacity: 1;
-  background-color: rgb(210 239 154 / var(--tw-bg-opacity));
+  background-color: #984d00;
 }
 
 .bg-line {

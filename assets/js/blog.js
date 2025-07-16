@@ -53,7 +53,7 @@ function renderBlogs(page, blogs = []) {
                             />
                         </div>
                         <div class="blog-infor mt-7">
-                            <div class="blog-tag bg-green py-1 px-2.5 rounded-full text-button-uppercase inline-block">${blog.tag}</div>
+                            <div class="blog-tag bg-secondary py-1 px-2.5 rounded-full text-button-uppercase inline-block">${blog.tag}</div>
                             <div class="heading6 blog-title mt-3 duration-300">${blog.title}</div>
                             <div class="flex items-center gap-2 mt-2">
                                 <div class="blog-author caption1 text-secondary">by ${blog.author}</div>
@@ -80,7 +80,7 @@ function renderBlogs(page, blogs = []) {
                             />
                         </div>
                         <div class="blog-infor">
-                            <div class="blog-tag bg-green py-1 px-2.5 rounded-full text-button-uppercase inline-block">${blog.tag}</div>
+                            <div class="blog-tag bg-secondary py-1 px-2.5 rounded-full text-button-uppercase inline-block">${blog.tag}</div>
                             <div class="heading6 blog-title mt-3 duration-300">${blog.title}</div>
                             <div class="flex items-center gap-2 mt-2">
                                 <div class="blog-author caption1 text-secondary">by ${blog.author}</div>
@@ -106,7 +106,7 @@ function renderBlogs(page, blogs = []) {
                             />
                         </div>
                         <div class="blog-infor mt-7">
-                            <div class="blog-tag bg-green py-1 px-2.5 rounded-full text-button-uppercase inline-block">${blog.tag}</div>
+                            <div class="blog-tag bg-secondary py-1 px-2.5 rounded-full text-button-uppercase inline-block">${blog.tag}</div>
                             <div class="heading6 blog-title mt-3 duration-300">${blog.title}</div>
                             <div class="flex items-center gap-2 mt-2">
                                 <div class="blog-author caption1 text-secondary">by ${blog.author}</div>

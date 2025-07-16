@@ -502,18 +502,24 @@ input[type=file]::-webkit-file-upload-button {
   line-height: 20px;
   font-weight: 600;
   text-transform: uppercase;
+  color: var(--secondary);
 }
 
 .caption1 {
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
+  color: var(--secondary)
 }
 
 .caption2 {
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
+}
+
+.list-social{
+  color: var(--secondary);
 }
 
 .button-main {
@@ -2916,6 +2922,7 @@ input[type=file]::-webkit-file-upload-button {
 }
 .product-item.style-marketplace:hover .list-action .quick-view-btn {
   transition: all 0.3s ease, transform 0.3s ease 0.12s;
+  color: var(--primary);
 }
 .product-item.style-marketplace:hover .list-action .add-cart-btn {
   transition: all 0.3s ease, transform 0.3s ease 0.18s;
